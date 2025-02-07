@@ -4,7 +4,7 @@ services:
   # Сервіс для застосунку
   app:
     build: .
-    container_name: app_container
+    container_name: hw_2_app_container
     ports:
       - "8080:8000" # Проксіювання порту 8080 на хості до порту 8000 в контейнері
     environment:
